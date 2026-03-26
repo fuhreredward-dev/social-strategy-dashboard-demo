@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "post_id": "demo-001",
+      "platform": "TikTok",
+      "property": "NBA",
+      "category": "Highlight",
+      "tags": ["NBA", "playoffs", "clutch"],
+      "caption": "Buzzer-beater from the logo with 0.4 left.",
+      "thumbnail": "https://placehold.co/420x240/png",
+      "sparkline": [142000, 231000, 622000, 1180000, 1620000],
+      "final_impressions": 1620000,
+      "share_rate": 0.053,
+      "save_rate": 0.033,
+      "engagement_rate": 0.158
+    },
+    {
+      "post_id": "demo-002",
+      "platform": "YouTube",
+      "property": "NFL",
+      "category": "Feature",
+      "tags": ["NFL", "micd-up", "sideline"],
+      "caption": "Mic'd up playoff sideline reactions.",
+      "sparkline": [110000, 178000, 510000, 930000, 1280000],
+      "thumbnail": "https://placehold.co/420x240/png",
+      "final_impressions": 1280000,
+      "share_rate": 0.041,
+      "save_rate": 0.029,
+      "engagement_rate": 0.131
+    },
+    {
+      "post_id": "demo-003",
+      "platform": "Instagram",
+      "property": "MLB",
+      "category": "BTS",
+      "tags": ["MLB", "clubhouse", "pregame"],
+      "caption": "Clubhouse prep before first pitch.",
+      "sparkline": [91000, 150000, 388000, 710000, 980000],
+      "thumbnail": "https://placehold.co/420x240/png",
+      "final_impressions": 980000,
+      "share_rate": 0.038,
+      "save_rate": 0.036,
+      "engagement_rate": 0.127
+    },
+    {
+      "post_id": "demo-004",
+      "platform": "X",
+      "property": "NBA",
+      "category": "Analysis",
+      "tags": ["NBA", "film-room", "defense"],
+      "caption": "Film room: stopping elite pick-and-roll sets.",
+      "sparkline": [43000, 78000, 190000, 370000, 560000],
+      "thumbnail": "https://placehold.co/420x240/png",
+      "final_impressions": 560000,
+      "share_rate": 0.027,
+      "save_rate": 0.018,
+      "engagement_rate": 0.094
+    }
+  ]
+}

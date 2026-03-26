@@ -1,0 +1,959 @@
+[
+  {
+    "post_id": "demo-001",
+    "platform": "TikTok",
+    "url": "https://example.com/tiktok/demo-001",
+    "property": "NBA",
+    "category": "Highlight",
+    "tags": [
+      "NBA",
+      "clutch",
+      "highlight"
+    ],
+    "caption": "Buzzer-beater from downtown.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-24T16:35:12.835537",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 144000.0,
+        "views": 103680.0,
+        "engagements": 16588.0,
+        "shares": 4147.0,
+        "saves": 2592.0,
+        "watch_time": 54950.4,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 1492.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 216000.0,
+        "views": 155520.0,
+        "engagements": 24883.0,
+        "shares": 6220.0,
+        "saves": 3888.0,
+        "watch_time": 82425.6,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 2239.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 756000.0,
+        "views": 544320.0,
+        "engagements": 87091.0,
+        "shares": 21772.0,
+        "saves": 13608.0,
+        "watch_time": 288489.6,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 7838.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 1404000.0,
+        "views": 1010880.0,
+        "engagements": 161740.0,
+        "shares": 40435.0,
+        "saves": 25272.0,
+        "watch_time": 535766.4,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 14556.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 1800000.0,
+        "views": 1296000.0,
+        "engagements": 207360.0,
+        "shares": 51840.0,
+        "saves": 32400.0,
+        "watch_time": 686880.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 18662.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 774000.0,
+      "explore": 378000.0,
+      "search": 198000.0,
+      "profile_visits": 144000.0,
+      "external_embeds": 126000.0,
+      "reposts": 144000.0,
+      "aggregators": 36000.0
+    }
+  },
+  {
+    "post_id": "demo-002",
+    "platform": "YouTube",
+    "url": "https://example.com/youtube/demo-002",
+    "property": "NFL",
+    "category": "Feature",
+    "tags": [
+      "NFL",
+      "feature",
+      "sideline"
+    ],
+    "caption": "Mic'd up sideline reactions.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-23T08:35:12.835750",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 97600.0,
+        "views": 70272.0,
+        "engagements": 11243.0,
+        "shares": 2810.0,
+        "saves": 1756.0,
+        "watch_time": 37244.16,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 1011.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 146400.0,
+        "views": 105408.0,
+        "engagements": 16865.0,
+        "shares": 4216.0,
+        "saves": 2635.0,
+        "watch_time": 55866.24,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 1517.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 512400.0,
+        "views": 368928.0,
+        "engagements": 59028.0,
+        "shares": 14757.0,
+        "saves": 9223.0,
+        "watch_time": 195531.84,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 5312.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 951600.0,
+        "views": 685152.0,
+        "engagements": 109624.0,
+        "shares": 27406.0,
+        "saves": 17128.0,
+        "watch_time": 363130.56,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 9866.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 1220000.0,
+        "views": 878400.0,
+        "engagements": 140544.0,
+        "shares": 35136.0,
+        "saves": 21960.0,
+        "watch_time": 465552.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 12648.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 524600.0,
+      "explore": 256200.0,
+      "search": 134200.0,
+      "profile_visits": 97600.0,
+      "external_embeds": 85400.0,
+      "reposts": 97600.0,
+      "aggregators": 24400.0
+    }
+  },
+  {
+    "post_id": "demo-003",
+    "platform": "Instagram",
+    "url": "https://example.com/instagram/demo-003",
+    "property": "MLB",
+    "category": "BTS",
+    "tags": [
+      "MLB",
+      "BTS",
+      "clubhouse"
+    ],
+    "caption": "Clubhouse prep before first pitch.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-22T19:35:12.835820",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 77600.0,
+        "views": 55872.0,
+        "engagements": 8939.0,
+        "shares": 2234.0,
+        "saves": 1396.0,
+        "watch_time": 29612.16,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 804.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 116400.0,
+        "views": 83808.0,
+        "engagements": 13409.0,
+        "shares": 3352.0,
+        "saves": 2095.0,
+        "watch_time": 44418.24,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 1206.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 407400.0,
+        "views": 293328.0,
+        "engagements": 46932.0,
+        "shares": 11733.0,
+        "saves": 7333.0,
+        "watch_time": 155463.84,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 4223.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 756600.0,
+        "views": 544752.0,
+        "engagements": 87160.0,
+        "shares": 21790.0,
+        "saves": 13618.0,
+        "watch_time": 288718.56,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 7844.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 970000.0,
+        "views": 698400.0,
+        "engagements": 111744.0,
+        "shares": 27936.0,
+        "saves": 17460.0,
+        "watch_time": 370152.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 10056.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 417100.0,
+      "explore": 203700.0,
+      "search": 106700.0,
+      "profile_visits": 77600.0,
+      "external_embeds": 67900.0,
+      "reposts": 77600.0,
+      "aggregators": 19400.0
+    }
+  },
+  {
+    "post_id": "demo-004",
+    "platform": "X",
+    "url": "https://example.com/x/demo-004",
+    "property": "NBA",
+    "category": "Analysis",
+    "tags": [
+      "NBA",
+      "analysis",
+      "defense"
+    ],
+    "caption": "Film room breakdown: pick-and-roll coverages.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-18T12:35:12.835872",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 42400.0,
+        "views": 30528.0,
+        "engagements": 4884.0,
+        "shares": 1221.0,
+        "saves": 763.0,
+        "watch_time": 16179.84,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 439.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 63600.0,
+        "views": 45792.0,
+        "engagements": 7326.0,
+        "shares": 1831.0,
+        "saves": 1144.0,
+        "watch_time": 24269.76,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 659.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 222600.0,
+        "views": 160272.0,
+        "engagements": 25643.0,
+        "shares": 6410.0,
+        "saves": 4006.0,
+        "watch_time": 84944.16,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 2307.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 413400.0,
+        "views": 297648.0,
+        "engagements": 47623.0,
+        "shares": 11905.0,
+        "saves": 7441.0,
+        "watch_time": 157753.44,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 4286.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 530000.0,
+        "views": 381600.0,
+        "engagements": 61056.0,
+        "shares": 15264.0,
+        "saves": 9540.0,
+        "watch_time": 202248.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 5495.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 227900.0,
+      "explore": 111300.0,
+      "search": 58300.0,
+      "profile_visits": 42400.0,
+      "external_embeds": 37100.0,
+      "reposts": 42400.0,
+      "aggregators": 10600.0
+    }
+  },
+  {
+    "post_id": "demo-005",
+    "platform": "Facebook",
+    "url": "https://example.com/facebook/demo-005",
+    "property": "NHL",
+    "category": "Highlight",
+    "tags": [
+      "NHL",
+      "highlight",
+      "overtime"
+    ],
+    "caption": "Top shelf game-winner in overtime.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-16T14:35:12.835933",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 49600.0,
+        "views": 35712.0,
+        "engagements": 5713.0,
+        "shares": 1428.0,
+        "saves": 892.0,
+        "watch_time": 18927.36,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 514.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 74400.0,
+        "views": 53568.0,
+        "engagements": 8570.0,
+        "shares": 2142.0,
+        "saves": 1339.0,
+        "watch_time": 28391.04,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 771.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 260400.0,
+        "views": 187488.0,
+        "engagements": 29998.0,
+        "shares": 7499.0,
+        "saves": 4687.0,
+        "watch_time": 99368.64,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 2699.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 483600.0,
+        "views": 348192.0,
+        "engagements": 55710.0,
+        "shares": 13927.0,
+        "saves": 8704.0,
+        "watch_time": 184541.76,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 5013.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 620000.0,
+        "views": 446400.0,
+        "engagements": 71424.0,
+        "shares": 17856.0,
+        "saves": 11160.0,
+        "watch_time": 236592.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 6428.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 266600.0,
+      "explore": 130200.0,
+      "search": 68200.0,
+      "profile_visits": 49600.0,
+      "external_embeds": 43400.0,
+      "reposts": 49600.0,
+      "aggregators": 12400.0
+    }
+  },
+  {
+    "post_id": "demo-006",
+    "platform": "TikTok",
+    "url": "https://example.com/tiktok/demo-006",
+    "property": "WNBA",
+    "category": "Feature",
+    "tags": [
+      "WNBA",
+      "feature",
+      "rookie"
+    ],
+    "caption": "A day in the life with a rookie guard.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-13T18:35:12.836002",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 70400.0,
+        "views": 50688.0,
+        "engagements": 8110.0,
+        "shares": 2027.0,
+        "saves": 1267.0,
+        "watch_time": 26864.64,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 729.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 105600.0,
+        "views": 76032.0,
+        "engagements": 12165.0,
+        "shares": 3041.0,
+        "saves": 1900.0,
+        "watch_time": 40296.96,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 1094.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 369600.0,
+        "views": 266112.0,
+        "engagements": 42577.0,
+        "shares": 10644.0,
+        "saves": 6652.0,
+        "watch_time": 141039.36,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 3831.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 686400.0,
+        "views": 494208.0,
+        "engagements": 79073.0,
+        "shares": 19768.0,
+        "saves": 12355.0,
+        "watch_time": 261930.24,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 7116.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 880000.0,
+        "views": 633600.0,
+        "engagements": 101376.0,
+        "shares": 25344.0,
+        "saves": 15840.0,
+        "watch_time": 335808.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 9123.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 378400.0,
+      "explore": 184800.0,
+      "search": 96800.0,
+      "profile_visits": 70400.0,
+      "external_embeds": 61600.0,
+      "reposts": 70400.0,
+      "aggregators": 17600.0
+    }
+  },
+  {
+    "post_id": "demo-007",
+    "platform": "YouTube",
+    "url": "https://example.com/youtube/demo-007",
+    "property": "NASCAR",
+    "category": "Recap",
+    "tags": [
+      "NASCAR",
+      "recap",
+      "strategy"
+    ],
+    "caption": "Pit strategy recap from race weekend.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-03-08T15:35:12.836060",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 34400.0,
+        "views": 24768.0,
+        "engagements": 3962.0,
+        "shares": 990.0,
+        "saves": 619.0,
+        "watch_time": 13127.04,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 356.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 51600.0,
+        "views": 37152.0,
+        "engagements": 5944.0,
+        "shares": 1486.0,
+        "saves": 928.0,
+        "watch_time": 19690.56,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 534.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 180600.0,
+        "views": 130032.0,
+        "engagements": 20805.0,
+        "shares": 5201.0,
+        "saves": 3250.0,
+        "watch_time": 68916.96,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 1872.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 335400.0,
+        "views": 241488.0,
+        "engagements": 38638.0,
+        "shares": 9659.0,
+        "saves": 6037.0,
+        "watch_time": 127988.64,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 3477.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 430000.0,
+        "views": 309600.0,
+        "engagements": 49536.0,
+        "shares": 12384.0,
+        "saves": 7740.0,
+        "watch_time": 164088.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 4458.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 184900.0,
+      "explore": 90300.0,
+      "search": 47300.0,
+      "profile_visits": 34400.0,
+      "external_embeds": 30100.0,
+      "reposts": 34400.0,
+      "aggregators": 8600.0
+    }
+  },
+  {
+    "post_id": "demo-008",
+    "platform": "Instagram",
+    "url": "https://example.com/instagram/demo-008",
+    "property": "NFL",
+    "category": "Highlight",
+    "tags": [
+      "NFL",
+      "highlight",
+      "receiver"
+    ],
+    "caption": "One-handed catch from warmups.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-02-28T16:35:12.836159",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 79200.0,
+        "views": 57024.0,
+        "engagements": 9123.0,
+        "shares": 2280.0,
+        "saves": 1425.0,
+        "watch_time": 30222.72,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 821.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 118800.0,
+        "views": 85536.0,
+        "engagements": 13685.0,
+        "shares": 3421.0,
+        "saves": 2138.0,
+        "watch_time": 45334.08,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 1231.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 415800.0,
+        "views": 299376.0,
+        "engagements": 47900.0,
+        "shares": 11975.0,
+        "saves": 7484.0,
+        "watch_time": 158669.28,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 4311.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 772200.0,
+        "views": 555984.0,
+        "engagements": 88957.0,
+        "shares": 22239.0,
+        "saves": 13899.0,
+        "watch_time": 294671.52,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 8006.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 990000.0,
+        "views": 712800.0,
+        "engagements": 114048.0,
+        "shares": 28512.0,
+        "saves": 17820.0,
+        "watch_time": 377784.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 10264.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 425700.0,
+      "explore": 207900.0,
+      "search": 108900.0,
+      "profile_visits": 79200.0,
+      "external_embeds": 69300.0,
+      "reposts": 79200.0,
+      "aggregators": 19800.0
+    }
+  },
+  {
+    "post_id": "demo-009",
+    "platform": "X",
+    "url": "https://example.com/x/demo-009",
+    "property": "MLB",
+    "category": "Feature",
+    "tags": [
+      "MLB",
+      "prospect",
+      "feature"
+    ],
+    "caption": "Prospect spotlight and scouting notes.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-02-23T13:35:12.836218",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 28000.0,
+        "views": 20160.0,
+        "engagements": 3225.0,
+        "shares": 806.0,
+        "saves": 504.0,
+        "watch_time": 10684.8,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 290.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 42000.0,
+        "views": 30240.0,
+        "engagements": 4838.0,
+        "shares": 1209.0,
+        "saves": 756.0,
+        "watch_time": 16027.2,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 435.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 147000.0,
+        "views": 105840.0,
+        "engagements": 16934.0,
+        "shares": 4233.0,
+        "saves": 2646.0,
+        "watch_time": 56095.2,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 1524.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 273000.0,
+        "views": 196560.0,
+        "engagements": 31449.0,
+        "shares": 7862.0,
+        "saves": 4914.0,
+        "watch_time": 104176.8,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 2830.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 350000.0,
+        "views": 252000.0,
+        "engagements": 40320.0,
+        "shares": 10080.0,
+        "saves": 6300.0,
+        "watch_time": 133560.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 3628.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 150500.0,
+      "explore": 73500.0,
+      "search": 38500.0,
+      "profile_visits": 28000.0,
+      "external_embeds": 24500.0,
+      "reposts": 28000.0,
+      "aggregators": 7000.0
+    }
+  },
+  {
+    "post_id": "demo-010",
+    "platform": "Snap",
+    "url": "https://example.com/snap/demo-010",
+    "property": "NBA",
+    "category": "BTS",
+    "tags": [
+      "NBA",
+      "BTS",
+      "fashion"
+    ],
+    "caption": "Tunnel fits before tip-off.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-02-19T15:35:12.836278",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 22400.0,
+        "views": 16128.0,
+        "engagements": 2580.0,
+        "shares": 645.0,
+        "saves": 403.0,
+        "watch_time": 8547.84,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 232.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 33600.0,
+        "views": 24192.0,
+        "engagements": 3870.0,
+        "shares": 967.0,
+        "saves": 604.0,
+        "watch_time": 12821.76,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 348.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 117600.0,
+        "views": 84672.0,
+        "engagements": 13547.0,
+        "shares": 3386.0,
+        "saves": 2116.0,
+        "watch_time": 44876.16,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 1219.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 218400.0,
+        "views": 157248.0,
+        "engagements": 25159.0,
+        "shares": 6289.0,
+        "saves": 3931.0,
+        "watch_time": 83341.44,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 2264.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 280000.0,
+        "views": 201600.0,
+        "engagements": 32256.0,
+        "shares": 8064.0,
+        "saves": 5040.0,
+        "watch_time": 106848.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 2903.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 120400.0,
+      "explore": 58800.0,
+      "search": 30800.0,
+      "profile_visits": 22400.0,
+      "external_embeds": 19600.0,
+      "reposts": 22400.0,
+      "aggregators": 5600.0
+    }
+  },
+  {
+    "post_id": "demo-011",
+    "platform": "TikTok",
+    "url": "https://example.com/tiktok/demo-011",
+    "property": "NFL",
+    "category": "Highlight",
+    "tags": [
+      "NFL",
+      "special-teams",
+      "highlight"
+    ],
+    "caption": "Special teams touchdown return.",
+    "notes": "Demo post for prototype analytics",
+    "published_at": "2026-02-15T03:35:12.836405",
+    "video_duration": 95.0,
+    "performance": {
+      "30m": {
+        "impressions": 41600.0,
+        "views": 29952.0,
+        "engagements": 4792.0,
+        "shares": 1198.0,
+        "saves": 748.0,
+        "watch_time": 15874.56,
+        "retention_rate": 0.436,
+        "ctr": 0.0154,
+        "follower_gain": 431.0,
+        "note": ""
+      },
+      "1h": {
+        "impressions": 62400.0,
+        "views": 44928.0,
+        "engagements": 7188.0,
+        "shares": 1797.0,
+        "saves": 1123.0,
+        "watch_time": 23811.84,
+        "retention_rate": 0.444,
+        "ctr": 0.0156,
+        "follower_gain": 646.0,
+        "note": ""
+      },
+      "6h": {
+        "impressions": 218400.0,
+        "views": 157248.0,
+        "engagements": 25159.0,
+        "shares": 6289.0,
+        "saves": 3931.0,
+        "watch_time": 83341.44,
+        "retention_rate": 0.504,
+        "ctr": 0.0171,
+        "follower_gain": 2264.0,
+        "note": ""
+      },
+      "24h": {
+        "impressions": 405600.0,
+        "views": 292032.0,
+        "engagements": 46725.0,
+        "shares": 11681.0,
+        "saves": 7300.0,
+        "watch_time": 154776.96,
+        "retention_rate": 0.576,
+        "ctr": 0.0189,
+        "follower_gain": 4205.0,
+        "note": ""
+      },
+      "final": {
+        "impressions": 520000.0,
+        "views": 374400.0,
+        "engagements": 59904.0,
+        "shares": 14976.0,
+        "saves": 9360.0,
+        "watch_time": 198432.0,
+        "retention_rate": 0.62,
+        "ctr": 0.02,
+        "follower_gain": 5391.0,
+        "note": "Fictional final metric snapshot"
+      }
+    },
+    "referrals": {
+      "home_feed": 223600.0,
+      "explore": 109200.0,
+      "search": 57200.0,
+      "profile_visits": 41600.0,
+      "external_embeds": 36400.0,
+      "reposts": 41600.0,
+      "aggregators": 10400.0
+    }
+  }
+]

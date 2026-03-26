@@ -1,0 +1,51 @@
+{
+  "post": {
+    "post_id": "demo-002",
+    "platform": "YouTube",
+    "url": "https://example.com/youtube/demo-002",
+    "property": "NFL",
+    "category": "Feature",
+    "tags": ["NFL", "micd-up", "sideline"],
+    "caption": "Mic'd up playoff sideline reactions.",
+    "notes": "Pinned comment boosted engagement.",
+    "published_at": "2026-03-18T19:30:00",
+    "video_duration": 402
+  },
+  "platform_metrics": {
+    "final_impressions": 1280000,
+    "view_count": 934000,
+    "engagement_count": 167000,
+    "share_count": 38300,
+    "save_count": 27100,
+    "avg_watch_time": 74.8,
+    "retention": 0.49,
+    "clicks": 28200,
+    "ctr": 0.03,
+    "follower_gain": 6200
+  },
+  "referrals": {
+    "home_feed": 521000,
+    "explore": 248000,
+    "search": 194000,
+    "profile_visits": 90000,
+    "external_embeds": 101000,
+    "reposts": 98000,
+    "aggregators": 28000
+  },
+  "curves": {
+    "labels": ["30m", "1h", "6h", "24h", "final"],
+    "impressions": [110000, 178000, 510000, 930000, 1280000],
+    "engagement_rate": [0.101, 0.112, 0.12, 0.128, 0.131],
+    "share_velocity": [3700, 5900, 14400, 28100, 38300],
+    "watch_time": [20.4, 28.8, 46.1, 62.7, 74.8]
+  },
+  "notes": "Long-form watch time held above benchmark through 24h.",
+  "related_posts": [
+    { "post_id": "demo-001", "caption": "Buzzer-beater from the logo with 0.4 left.", "platform": "TikTok", "final_impressions": 1620000 }
+  ],
+  "benchmark": {
+    "category": "Feature",
+    "percentile": 84.2,
+    "summary": "Top 16% for feature content this month"
+  }
+}

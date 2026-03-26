@@ -1,0 +1,59 @@
+{
+  "total_impressions": 7240000,
+  "period_change_percent": 8.4,
+  "engagement_rate": 0.132,
+  "avg_watch_time": 61.8,
+  "share_rate": 0.047,
+  "save_rate": 0.031,
+  "top_platform": {
+    "name": "TikTok",
+    "avg_24h_per_post": 645000,
+    "avg_engagement_rate": 0.149
+  },
+  "top_property": {
+    "name": "NBA",
+    "impressions": 2890000,
+    "engagement_rate": 0.141,
+    "share_rate": 0.052
+  },
+  "top_category": {
+    "name": "Highlight",
+    "impressions": 3640000,
+    "post_count": 14,
+    "performance_vs_avg": 0.503
+  },
+  "properties_ranking": [
+    { "property": "NBA", "impressions": 2890000, "engagement_rate": 0.141, "avg_24h_impressions": 601000 },
+    { "property": "NFL", "impressions": 1780000, "engagement_rate": 0.129, "avg_24h_impressions": 412000 },
+    { "property": "MLB", "impressions": 1210000, "engagement_rate": 0.122, "avg_24h_impressions": 295000 },
+    { "property": "NHL", "impressions": 860000, "engagement_rate": 0.116, "avg_24h_impressions": 214000 },
+    { "property": "WNBA", "impressions": 500000, "engagement_rate": 0.137, "avg_24h_impressions": 132000 }
+  ],
+  "platforms_ranking": [
+    { "platform": "TikTok", "impressions": 2440000, "engagement_rate": 0.149, "avg_watch_time": 70.2, "avg_24h_impressions": 645000 },
+    { "platform": "YouTube", "impressions": 1710000, "engagement_rate": 0.127, "avg_watch_time": 74.8, "avg_24h_impressions": 431000 },
+    { "platform": "Instagram", "impressions": 1430000, "engagement_rate": 0.134, "avg_watch_time": 58.5, "avg_24h_impressions": 352000 },
+    { "platform": "X", "impressions": 910000, "engagement_rate": 0.109, "avg_watch_time": 39.3, "avg_24h_impressions": 208000 },
+    { "platform": "Facebook", "impressions": 530000, "engagement_rate": 0.102, "avg_watch_time": 33.1, "avg_24h_impressions": 127000 },
+    { "platform": "Snap", "impressions": 220000, "engagement_rate": 0.121, "avg_watch_time": 41.4, "avg_24h_impressions": 63000 }
+  ],
+  "funnel": {
+    "views": 4860000,
+    "engagements": 959000,
+    "clicks": 150300,
+    "follows": 34700,
+    "engage_rate": 0.197,
+    "click_rate": 0.157,
+    "follow_rate": 0.231
+  },
+  "kpis": {
+    "engagement_rate": 0.132,
+    "view_through_rate": 0.671,
+    "avg_watch_time": 61.8,
+    "ctr": 0.031,
+    "shares_to_views": 0.047,
+    "saves_to_views": 0.031,
+    "posts_above_benchmark": 0.58,
+    "follower_change": 34700
+  }
+}

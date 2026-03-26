@@ -1,0 +1,9 @@
+{
+  "properties": [
+    { "property": "NBA", "impressions": 2890000, "engagement_rate": 0.141, "avg_24h_impressions": 601000 },
+    { "property": "NFL", "impressions": 1780000, "engagement_rate": 0.129, "avg_24h_impressions": 412000 },
+    { "property": "MLB", "impressions": 1210000, "engagement_rate": 0.122, "avg_24h_impressions": 295000 },
+    { "property": "NHL", "impressions": 860000, "engagement_rate": 0.116, "avg_24h_impressions": 214000 },
+    { "property": "WNBA", "impressions": 500000, "engagement_rate": 0.137, "avg_24h_impressions": 132000 }
+  ]
+}

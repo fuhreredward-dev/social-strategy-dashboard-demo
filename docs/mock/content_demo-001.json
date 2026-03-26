@@ -1,0 +1,52 @@
+{
+  "post": {
+    "post_id": "demo-001",
+    "platform": "TikTok",
+    "url": "https://example.com/tiktok/demo-001",
+    "property": "NBA",
+    "category": "Highlight",
+    "tags": ["NBA", "playoffs", "clutch"],
+    "caption": "Buzzer-beater from the logo with 0.4 left.",
+    "notes": "Player reposted at 8:45pm ET.",
+    "published_at": "2026-03-20T21:10:00",
+    "video_duration": 94
+  },
+  "platform_metrics": {
+    "final_impressions": 1620000,
+    "view_count": 1170000,
+    "engagement_count": 256000,
+    "share_count": 62000,
+    "save_count": 38600,
+    "avg_watch_time": 68.2,
+    "retention": 0.56,
+    "clicks": 39000,
+    "ctr": 0.033,
+    "follower_gain": 8100
+  },
+  "referrals": {
+    "home_feed": 682000,
+    "explore": 311000,
+    "search": 126000,
+    "profile_visits": 81000,
+    "external_embeds": 62000,
+    "reposts": 337000,
+    "aggregators": 21000
+  },
+  "curves": {
+    "labels": ["30m", "1h", "6h", "24h", "final"],
+    "impressions": [142000, 231000, 622000, 1180000, 1620000],
+    "engagement_rate": [0.12, 0.129, 0.145, 0.154, 0.158],
+    "share_velocity": [6300, 9800, 22400, 47600, 62000],
+    "watch_time": [13.2, 19.1, 35.4, 53.8, 68.2]
+  },
+  "notes": "Strong lift after team account repost and halftime mention.",
+  "related_posts": [
+    { "post_id": "demo-004", "caption": "Film room: stopping elite pick-and-roll sets.", "platform": "X", "final_impressions": 560000 },
+    { "post_id": "demo-003", "caption": "Clubhouse prep before first pitch.", "platform": "Instagram", "final_impressions": 980000 }
+  ],
+  "benchmark": {
+    "category": "Highlight",
+    "percentile": 91.4,
+    "summary": "Top 9% for highlight content this month"
+  }
+}

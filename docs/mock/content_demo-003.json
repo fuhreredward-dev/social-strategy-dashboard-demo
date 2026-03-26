@@ -1,0 +1,51 @@
+{
+  "post": {
+    "post_id": "demo-003",
+    "platform": "Instagram",
+    "url": "https://example.com/instagram/demo-003",
+    "property": "MLB",
+    "category": "BTS",
+    "tags": ["MLB", "clubhouse", "pregame"],
+    "caption": "Clubhouse prep before first pitch.",
+    "notes": "Posted 45 min before game start.",
+    "published_at": "2026-03-17T17:15:00",
+    "video_duration": 63
+  },
+  "platform_metrics": {
+    "final_impressions": 980000,
+    "view_count": 701000,
+    "engagement_count": 124000,
+    "share_count": 26600,
+    "save_count": 25200,
+    "avg_watch_time": 58.5,
+    "retention": 0.52,
+    "clicks": 18800,
+    "ctr": 0.027,
+    "follower_gain": 4200
+  },
+  "referrals": {
+    "home_feed": 411000,
+    "explore": 297000,
+    "search": 76000,
+    "profile_visits": 64000,
+    "external_embeds": 38000,
+    "reposts": 77000,
+    "aggregators": 17000
+  },
+  "curves": {
+    "labels": ["30m", "1h", "6h", "24h", "final"],
+    "impressions": [91000, 150000, 388000, 710000, 980000],
+    "engagement_rate": [0.097, 0.106, 0.118, 0.124, 0.127],
+    "share_velocity": [2600, 3900, 10600, 19800, 26600],
+    "watch_time": [12.6, 18.1, 33.6, 48.7, 58.5]
+  },
+  "notes": "Strong save rate for behind-the-scenes format.",
+  "related_posts": [
+    { "post_id": "demo-002", "caption": "Mic'd up playoff sideline reactions.", "platform": "YouTube", "final_impressions": 1280000 }
+  ],
+  "benchmark": {
+    "category": "BTS",
+    "percentile": 79.6,
+    "summary": "Top 20% for BTS content this month"
+  }
+}

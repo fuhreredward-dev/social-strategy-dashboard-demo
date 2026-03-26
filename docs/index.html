@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Strategy Insight Software</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Social Strategy Insight Software</h1>
+      <div class="controls">
+        <select id="periodSelect">
+          <option value="this_week">This Week</option>
+          <option value="last_week">Last Week</option>
+          <option value="this_month" selected>This Month</option>
+          <option value="last_month">Last Month</option>
+        </select>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="dashboard">Dashboard</button>
+      <button class="tab" data-tab="content">Content</button>
+      <button class="tab" data-tab="platforms">Platforms</button>
+      <button class="tab" data-tab="properties">Properties</button>
+      <button class="tab" data-tab="data-entry">Data Entry</button>
+    </nav>
+
+    <main>
+      <section id="dashboard" class="tab-pane active">
+        <div id="topMetrics" class="top-metrics"></div>
+
+        <div class="layout-grid">
+          <aside class="panel left-col">
+            <h3>Properties Ranking</h3>
+            <div id="propertiesRanking"></div>
+            <h3>KPIs</h3>
+            <div id="kpiList"></div>
+          </aside>
+
+          <section class="panel center-col">
+            <h3>Top Content Gallery</h3>
+            <div id="topContentGrid" class="content-grid"></div>
+          </section>
+
+          <aside class="panel right-col">
+            <h3>Platforms Ranking</h3>
+            <div id="platformsRanking"></div>
+            <h3>Funnel</h3>
+            <div id="funnelBox"></div>
+          </aside>
+        </div>
+
+        <div class="insight-grid">
+          <section class="panel">
+            <h3>Generated Insights</h3>
+            <div id="insightsList"></div>
+          </section>
+          <section class="panel chart-panel">
+            <h3>Platform Impressions</h3>
+            <div class="chart-wrap"><canvas id="platformBarChart"></canvas></div>
+          </section>
+          <section class="panel chart-panel">
+            <h3>Property Mix</h3>
+            <div class="chart-wrap"><canvas id="propertyMixChart"></canvas></div>
+          </section>
+          <section class="panel chart-panel">
+            <h3>Conversion Funnel Mix</h3>
+            <div class="chart-wrap"><canvas id="funnelMixChart"></canvas></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="content" class="tab-pane">
+        <div class="panel">
+          <h3>Content Detail View</h3>
+          <div id="contentPrompt">Click any content tile on Dashboard to load detail.</div>
+          <div id="contentDetail" class="content-detail hidden">
+            <div class="detail-header" id="detailHeader"></div>
+            <div class="detail-grid">
+              <div class="panel"><h4>Platform Metrics</h4><div id="platformMetrics"></div></div>
+              <div class="panel center"><h4>Performance Curve</h4><div class="detail-chart-wrap"><canvas id="detailChart"></canvas></div></div>
+              <div class="panel"><h4>Referral Sources</h4><div id="referralSources"></div></div>
+            </div>
+            <div class="panel"><h4>Notes, Related, Benchmark</h4><div id="bottomDetail"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="platforms" class="tab-pane">
+        <div class="summary-grid two-col">
+          <div class="panel">
+            <h3>Platform Leaders</h3>
+            <div id="platformLeaderCards"></div>
+          </div>
+          <div class="panel">
+            <h3>Platform Insights</h3>
+            <div id="platformInsights"></div>
+          </div>
+        </div>
+        <div class="summary-grid two-col mt-10">
+          <div class="panel chart-panel">
+            <h3>Impressions by Platform</h3>
+            <div class="chart-wrap"><canvas id="platformsPageBarChart"></canvas></div>
+          </div>
+          <div class="panel chart-panel">
+            <h3>Engagement Rate by Platform</h3>
+            <div class="chart-wrap"><canvas id="platformsPageEngChart"></canvas></div>
+          </div>
+        </div>
+        <div class="panel mt-10">
+          <h3>Platform Summary Table</h3>
+          <div id="platformSummaryTable"></div>
+        </div>
+      </section>
+
+      <section id="properties" class="tab-pane">
+        <div class="summary-grid two-col">
+          <div class="panel">
+            <h3>Property Leaders</h3>
+            <div id="propertyLeaderCards"></div>
+          </div>
+          <div class="panel">
+            <h3>Property Insights</h3>
+            <div id="propertyInsights"></div>
+          </div>
+        </div>
+        <div class="summary-grid two-col mt-10">
+          <div class="panel chart-panel">
+            <h3>Impressions by Property</h3>
+            <div class="chart-wrap"><canvas id="propertiesPageBarChart"></canvas></div>
+          </div>
+          <div class="panel chart-panel">
+            <h3>Avg 24h Lift by Property</h3>
+            <div class="chart-wrap"><canvas id="propertiesPageLiftChart"></canvas></div>
+          </div>
+        </div>
+        <div class="panel mt-10">
+          <h3>Property Summary Table</h3>
+          <div id="propertySummaryTable"></div>
+        </div>
+      </section>
+
+      <section id="data-entry" class="tab-pane">
+        <div class="panel">
+          <h3>Single Post Entry</h3>
+          <form id="singlePostForm" class="form-grid"></form>
+          <button id="submitSingle">Add Post</button>
+          <div id="singleResult"></div>
+        </div>
+        <div class="panel">
+          <h3>Bulk Upload (CSV/XLSX)</h3>
+          <input type="file" id="bulkFile" accept=".csv,.xlsx" />
+          <button id="submitBulk">Upload</button>
+          <div id="bulkResult"></div>
+          <div id="bulkPreview"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

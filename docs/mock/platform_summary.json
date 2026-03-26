@@ -1,0 +1,10 @@
+{
+  "platforms": [
+    { "platform": "TikTok", "impressions": 2440000, "engagement_rate": 0.149, "avg_watch_time": 70.2, "avg_24h_impressions": 645000 },
+    { "platform": "YouTube", "impressions": 1710000, "engagement_rate": 0.127, "avg_watch_time": 74.8, "avg_24h_impressions": 431000 },
+    { "platform": "Instagram", "impressions": 1430000, "engagement_rate": 0.134, "avg_watch_time": 58.5, "avg_24h_impressions": 352000 },
+    { "platform": "X", "impressions": 910000, "engagement_rate": 0.109, "avg_watch_time": 39.3, "avg_24h_impressions": 208000 },
+    { "platform": "Facebook", "impressions": 530000, "engagement_rate": 0.102, "avg_watch_time": 33.1, "avg_24h_impressions": 127000 },
+    { "platform": "Snap", "impressions": 220000, "engagement_rate": 0.121, "avg_watch_time": 41.4, "avg_24h_impressions": 63000 }
+  ]
+}

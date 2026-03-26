@@ -1,0 +1,51 @@
+{
+  "post": {
+    "post_id": "demo-004",
+    "platform": "X",
+    "url": "https://example.com/x/demo-004",
+    "property": "NBA",
+    "category": "Analysis",
+    "tags": ["NBA", "film-room", "defense"],
+    "caption": "Film room: stopping elite pick-and-roll sets.",
+    "notes": "Thread format improved dwell time.",
+    "published_at": "2026-03-15T16:40:00",
+    "video_duration": 74
+  },
+  "platform_metrics": {
+    "final_impressions": 560000,
+    "view_count": 401000,
+    "engagement_count": 52600,
+    "share_count": 10800,
+    "save_count": 7200,
+    "avg_watch_time": 39.3,
+    "retention": 0.42,
+    "clicks": 9700,
+    "ctr": 0.024,
+    "follower_gain": 2100
+  },
+  "referrals": {
+    "home_feed": 279000,
+    "explore": 98000,
+    "search": 54000,
+    "profile_visits": 45000,
+    "external_embeds": 29000,
+    "reposts": 41000,
+    "aggregators": 14000
+  },
+  "curves": {
+    "labels": ["30m", "1h", "6h", "24h", "final"],
+    "impressions": [43000, 78000, 190000, 370000, 560000],
+    "engagement_rate": [0.072, 0.078, 0.086, 0.091, 0.094],
+    "share_velocity": [1200, 1900, 4300, 7600, 10800],
+    "watch_time": [7.9, 11.3, 21.1, 31.4, 39.3]
+  },
+  "notes": "Analysis format has lower reach but strong niche engagement.",
+  "related_posts": [
+    { "post_id": "demo-001", "caption": "Buzzer-beater from the logo with 0.4 left.", "platform": "TikTok", "final_impressions": 1620000 }
+  ],
+  "benchmark": {
+    "category": "Analysis",
+    "percentile": 72.1,
+    "summary": "Top 28% for analysis content this month"
+  }
+}
