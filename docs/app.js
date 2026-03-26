@@ -178,6 +178,8 @@ function renderInsights(summary, contentItems) {
   const changeDirection = summary.period_change_percent >= 0 ? "up" : "down";
   const strongestPlatform = summary.platforms_ranking[0];
   const weakestPlatform = summary.platforms_ranking[summary.platforms_ranking.length - 1];
+  const topProperty = summary.top_property?.name || "Top Property";
+  const topCategory = summary.top_category?.name || "Top Category";
 
   const insights = [
     `Performance is trending ${changeDirection} ${Math.abs(summary.period_change_percent).toFixed(2)}% versus the prior period, with ${fmt(summary.total_impressions)} total impressions.`,
@@ -188,6 +190,48 @@ function renderInsights(summary, contentItems) {
   ];
 
   document.getElementById("insightsList").innerHTML = insights.map((insight) => `<div class="insight-item">${insight}</div>`).join("");
+
+  const takeaways = [
+    `Double down on ${topCategory.toLowerCase()} content for ${topProperty} on ${strongestPlatform?.platform || "your top platform"}, where reach and engagement are strongest.`,
+    `Underinvest in ${weakestPlatform?.platform || "the weakest platform"} until engagement recovers above your median platform benchmark.`,
+    `Expand high-retention formats (mic’d-up, BTS, or analysis) into your top two platforms to diversify beyond highlight-only output.`,
+    `Prioritize posts with strong early share velocity and repost catalysts; schedule amplification within the first 60 minutes.`,
+  ];
+
+  document.getElementById("strategyTakeaways").innerHTML = takeaways
+    .map((item) => `<div class="insight-item">${item}</div>`)
+    .join("");
+
+  const plan = [
+    {
+      title: "3 TikTok Ideas",
+      bullets: [
+        `${topProperty} ${topCategory.toLowerCase()} rapid recap (30–45 sec)`,
+        "Clutch-moment reaction mashup with creator voiceover",
+        "Player POV behind-the-scenes with replay overlays",
+      ],
+    },
+    {
+      title: "2 Instagram Concepts",
+      bullets: [
+        "Carousel breakdown: key sequence + tactical freeze frames",
+        "Short-form BTS reel tied to upcoming broadcast storyline",
+      ],
+    },
+    {
+      title: "1 YouTube Feature",
+      bullets: [
+        "Mic’d-up sideline mini-feature with coaching and player audio",
+      ],
+    },
+  ];
+
+  document.getElementById("nextWeekPlan").innerHTML = plan
+    .map(
+      (bucket) =>
+        `<div class="plan-item"><strong>${bucket.title}</strong><div>${bucket.bullets.map((b) => `• ${b}`).join("<br/>")}</div></div>`
+    )
+    .join("");
 }
 
 function renderAdvancedCharts(summary) {

@@ -183,6 +183,18 @@ main {
   background: rgba(15, 23, 42, 0.7);
 }
 
+.plan-item {
+  border: 1px dashed rgba(148, 163, 184, 0.5);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background: rgba(15, 23, 42, 0.62);
+}
+
+.plan-item strong {
+  color: #bae6fd;
+}
+
 .leader-card {
   border: 1px solid var(--border);
   border-radius: 8px;

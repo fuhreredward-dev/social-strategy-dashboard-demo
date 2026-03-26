@@ -1,4 +1,4 @@
-# Social Strategy Insight Software (Prototype)
+# Sports Social Content Performance & Planning Tool (Prototype)
 
 Fictional post-performance analytics prototype for a sports media network.
 
